@@ -13,4 +13,9 @@ module.exports = {
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'error',
   },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
 };
