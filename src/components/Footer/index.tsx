@@ -1,18 +1,18 @@
 import * as React from 'react';
 import styled from 'styled-components';
 
-const Footer = styled.footer`
+const Container = styled.footer`
   margin: 120px 0 0;
 `;
 const Description = styled.p``;
 const Small = styled.small``;
 
-const Header: React.FC = () => (
-  <Footer>
+const Footer: React.FC = () => (
+  <Container>
     <Description>
       <Small>&copy; hanagejet. All Rights Reserved.</Small>
     </Description>
-  </Footer>
+  </Container>
 );
 
-export default Header;
+export default Footer;
