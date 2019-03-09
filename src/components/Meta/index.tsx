@@ -14,7 +14,6 @@ const query = graphql`
     site {
       siteMetadata {
         defaultTitle: title
-        # titleTemplate
         defaultDescription: description
         siteUrl: url
         defaultImage: image
@@ -31,7 +30,6 @@ const Meta: React.FC<Props> = ({ title, description, pathname, image }) => (
       site: {
         siteMetadata: {
           defaultTitle,
-          // titleTemplate,
           defaultDescription,
           siteUrl,
           defaultImage,

@@ -13,7 +13,7 @@ module.exports = {
   siteMetadata: {
     title: 'hanagejet',
     description: 'This is hanagejet',
-    image: '/images/ogp.png',
+    image: '/img/ogp.png',
     url: 'https://hanagejet.com',
     twitterUsername: '@hanagejet',
   },
