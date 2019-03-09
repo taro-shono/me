@@ -3,5 +3,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-typescript',
     },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+    },
   ],
 };
