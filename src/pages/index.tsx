@@ -4,6 +4,7 @@ import { withPrefix } from 'gatsby';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Layout from '../components/Layout';
+import Meta from '../components/Meta';
 
 const Content = styled.section`
   margin: 72px 0 0;
@@ -24,6 +25,7 @@ const Me = styled.img``;
 
 const Index: React.FC = () => (
   <Layout>
+    <Meta />
     <Header />
     <Content>
       <ContentHeading>About</ContentHeading>
