@@ -1,16 +1,10 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import 'sanitize.css';
 import { withPrefix } from 'gatsby';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Layout from '../components/Layout';
 
-const Layout = styled.div`
-  padding: 0 16px;
-  @media (min-width: 768px) {
-    padding: 0 120px;
-  }
-`;
 const Content = styled.section`
   margin: 72px 0 0;
 `;
