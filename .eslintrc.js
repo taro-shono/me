@@ -12,6 +12,7 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'error',
+    'react/prop-types': 'ignore',
   },
   settings: {
     react: {
