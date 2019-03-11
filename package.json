@@ -7,11 +7,11 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
+    "format": "prettier --write src/**/*.{ts,tsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "lint:css": "stylelint src/**/*",
-    "lint:js": "eslint src/**/*"
+    "lint:js": "eslint 'src/**/*'"
   },
   "dependencies": {
     "gatsby": "^2.1.24",
