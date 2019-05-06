@@ -9,7 +9,7 @@ This is Netlify x Gatsby's portfolio
 ### Setup
 
 ```shell
-npm i
+$ npm i
 ```
 
 ### Develop
