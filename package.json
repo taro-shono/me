@@ -29,7 +29,7 @@
     "@types/react-dom": "16.8.4",
     "@types/react-helmet": "5.0.8",
     "@types/styled-components": "4.1.12",
-    "@typescript-eslint/eslint-plugin": "1.4.2",
+    "@typescript-eslint/eslint-plugin": "1.9.0",
     "babel-plugin-styled-components": "1.10.0",
     "babel-preset-gatsby": "0.1.8",
     "eslint": "5.16.0",
