@@ -42,8 +42,8 @@ const Index: React.FC = () => (
       <ContentHeading>Contact</ContentHeading>
       <ContentList>
         <ContentItem>
-          <Anchor href="http://github.com/hanagejet/" target="_blank">
-            http://github.com/hanagejet/
+          <Anchor href="https://github.com/hanagejet/" target="_blank">
+            https://github.com/hanagejet/
           </Anchor>
         </ContentItem>
         <ContentItem>
