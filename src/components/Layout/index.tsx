@@ -1,6 +1,6 @@
 import * as React from 'react';
-import 'sanitize.css';
 import styled from 'styled-components';
+import { GlobalStyle } from '../../styles/base';
 
 const Container = styled.div`
   padding: 0 16px;
@@ -9,6 +9,11 @@ const Container = styled.div`
   }
 `;
 
-const Layout: React.FC = ({ children }) => <Container>{children}</Container>;
+const Layout: React.FC = ({ children }) => (
+  <Container>
+    <GlobalStyle />
+    {children}
+  </Container>
+);
 
 export default Layout;
