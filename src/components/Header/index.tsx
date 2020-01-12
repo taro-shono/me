@@ -7,8 +7,12 @@ const Container = styled.header`
     margin: 80px 0 0;
   }
 `;
-const Title = styled.h1``;
-const Description = styled.p``;
+const Title = styled.h1`
+  margin: 0;
+`;
+const Description = styled.p`
+  margin: 16px 0 0;
+`;
 
 const Header: React.FC = () => (
   <Container>
