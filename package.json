@@ -14,10 +14,10 @@
     "lint:js": "eslint 'src/**/*'"
   },
   "dependencies": {
-    "gatsby": "2.19.10",
-    "gatsby-plugin-react-helmet": "3.1.21",
-    "gatsby-plugin-styled-components": "3.1.18",
-    "gatsby-plugin-typescript": "2.1.26",
+    "gatsby": "2.19.11",
+    "gatsby-plugin-react-helmet": "3.1.22",
+    "gatsby-plugin-styled-components": "3.1.19",
+    "gatsby-plugin-typescript": "2.1.27",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-helmet": "5.2.1",
@@ -31,7 +31,7 @@
     "@types/styled-components": "4.4.2",
     "@typescript-eslint/eslint-plugin": "2.18.0",
     "babel-plugin-styled-components": "1.10.7",
-    "babel-preset-gatsby": "0.2.27",
+    "babel-preset-gatsby": "0.2.28",
     "eslint": "6.8.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-prettier": "3.1.2",
