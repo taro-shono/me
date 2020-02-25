@@ -14,7 +14,7 @@
     "lint:js": "eslint 'src/**/*'"
   },
   "dependencies": {
-    "gatsby": "2.19.21",
+    "gatsby": "2.19.22",
     "gatsby-plugin-react-helmet": "3.1.22",
     "gatsby-plugin-styled-components": "3.1.19",
     "gatsby-plugin-typescript": "2.1.27",
@@ -25,7 +25,7 @@
     "styled-components": "5.0.1"
   },
   "devDependencies": {
-    "@types/react": "16.9.22",
+    "@types/react": "16.9.23",
     "@types/react-dom": "16.9.5",
     "@types/react-helmet": "5.0.15",
     "@types/styled-components": "4.4.3",
