@@ -10,7 +10,7 @@ const Small = styled.small``;
 const Footer: React.FC = () => (
   <Container>
     <Description>
-      <Small>&copy; hanagejet. All Rights Reserved.</Small>
+      <Small>&copy; hanagejet</Small>
     </Description>
   </Container>
 );
