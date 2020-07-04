@@ -2,7 +2,7 @@
 
 https://hanagejet.com
 
-This is Netlify x Gatsby's portfolio
+This is vercel x Gatsby's portfolio
 
 ## Tasks
 
