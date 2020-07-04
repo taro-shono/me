@@ -34,7 +34,12 @@ const Index: React.FC = () => (
         <ContentItem>1987.07.31 / Tokyo</ContentItem>
         <ContentItem>Joined web since 2012.11</ContentItem>
         <ContentItem>
-          <Me src={withPrefix('/img/me.jpg')} width="112" alt="Taro Shono" />
+          <Me
+            src={withPrefix('/img/me.jpg')}
+            width="112"
+            alt="Taro Shono"
+            loading="lazy"
+          />
         </ContentItem>
       </ContentList>
     </Content>
