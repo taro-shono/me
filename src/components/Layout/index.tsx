@@ -3,9 +3,11 @@ import styled from 'styled-components';
 import { GlobalStyle } from '../../styles/base';
 
 const Container = styled.div`
+  margin: 0 auto;
+  max-width: 720px;
   padding: 0 16px;
   @media (min-width: 768px) {
-    padding: 0 120px;
+    padding: 0 24px;
   }
 `;
 

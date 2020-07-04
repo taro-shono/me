@@ -42,8 +42,13 @@ const Index: React.FC = () => (
       <ContentHeading>Contact</ContentHeading>
       <ContentList>
         <ContentItem>
-          <Anchor href="https://github.com/hanagejet/" target="_blank">
-            https://github.com/hanagejet/
+          <Anchor href="https://blog.hanagejet.com" target="_blank">
+            https://blog.hanagejet.com
+          </Anchor>
+        </ContentItem>
+        <ContentItem>
+          <Anchor href="https://github.com/hanagejet" target="_blank">
+            https://github.com/hanagejet
           </Anchor>
         </ContentItem>
         <ContentItem>
@@ -52,8 +57,8 @@ const Index: React.FC = () => (
           </Anchor>
         </ContentItem>
         <ContentItem>
-          <Anchor href="https://www.instagram.com/hanagejet/" target="_blank">
-            https://www.instagram.com/hanagejet/
+          <Anchor href="https://www.instagram.com/hanagejet" target="_blank">
+            https://www.instagram.com/hanagejet
           </Anchor>
         </ContentItem>
       </ContentList>
