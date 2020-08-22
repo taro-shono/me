@@ -37,6 +37,7 @@ const Index: React.FC = () => (
           <Me
             src={withPrefix('/img/me.jpg')}
             width="112"
+            height="112"
             alt="Taro Shono"
             loading="lazy"
           />
