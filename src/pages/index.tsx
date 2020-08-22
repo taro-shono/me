@@ -28,7 +28,7 @@ const Index: React.FC = () => (
     <Meta />
     <Header />
     <Content>
-      <ContentHeading>About</ContentHeading>
+      <ContentHeading>About test</ContentHeading>
       <ContentList>
         <ContentItem>Taro Shono</ContentItem>
         <ContentItem>1987.07.31 / Tokyo</ContentItem>
