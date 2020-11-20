@@ -30,7 +30,7 @@
     "@types/react-helmet": "6.1.0",
     "@types/styled-components": "5.1.4",
     "@typescript-eslint/eslint-plugin": "3.10.1",
-    "babel-plugin-styled-components": "1.11.1",
+    "babel-plugin-styled-components": "1.12.0",
     "babel-preset-gatsby": "0.7.0",
     "eslint": "7.13.0",
     "eslint-config-prettier": "6.15.0",
