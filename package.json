@@ -14,7 +14,7 @@
     "lint:js": "eslint 'src/**/*'"
   },
   "dependencies": {
-    "gatsby": "2.29.2",
+    "gatsby": "2.29.3",
     "gatsby-plugin-react-helmet": "3.7.0",
     "gatsby-plugin-styled-components": "3.7.0",
     "gatsby-plugin-typescript": "2.9.0",
