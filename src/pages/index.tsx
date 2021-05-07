@@ -28,19 +28,16 @@ const Index: React.FC = () => (
     <Meta />
     <Header />
     <Content>
-      <ContentHeading>About</ContentHeading>
+      <ContentHeading>Product</ContentHeading>
       <ContentList>
-        <ContentItem>Taro Shono</ContentItem>
-        <ContentItem>1987.07.31 / Tokyo</ContentItem>
-        <ContentItem>Joined web since 2012.11</ContentItem>
         <ContentItem>
-          <Me
-            src={withPrefix('/img/me.jpg')}
-            width="112"
-            height="112"
-            alt="Taro Shono"
-            loading="lazy"
-          />
+          <Anchor
+            href="https://www.picker.today"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://www.picker.today
+          </Anchor>
         </ContentItem>
       </ContentList>
     </Content>
