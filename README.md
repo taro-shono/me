@@ -2,7 +2,7 @@
 
 https://hanagejet.com
 
-This is vercel x Gatsby's portfolio
+This is vercel x nextjs's portfolio
 
 ## Tasks
 
