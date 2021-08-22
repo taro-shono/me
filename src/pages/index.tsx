@@ -20,7 +20,6 @@ const ContentItem = styled.li`
   margin: 8px 0 0;
 `;
 const Anchor = styled.a``;
-const Me = styled.img``;
 
 const Index: React.FC = () => (
   <Layout>
