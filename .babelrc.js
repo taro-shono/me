@@ -1,5 +1,5 @@
 module.exports = {
-  presets: ['babel-preset-gatsby'],
+  presets: ['next/babel'],
   env: {
     development: {
       plugins: [

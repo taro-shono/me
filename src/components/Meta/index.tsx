@@ -1,74 +1,36 @@
 import * as React from 'react';
-import { Helmet } from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
+import Head from 'next/head';
 
 interface Props {
   title?: string;
   description?: string;
   pathname?: string;
   image?: string;
+  url?: string;
 }
 
-const query = graphql`
-  query Meta {
-    site {
-      siteMetadata {
-        defaultTitle: title
-        defaultDescription: description
-        siteUrl: url
-        defaultImage: image
-        twitterUsername
-      }
-    }
-  }
-`;
+export const Meta: React.FC<Props> = (props) => {
+  const {
+    title = 'hanagejet',
+    description = 'This is hanagejet',
+    image = 'https://hanagejet.com/img/ogp.png',
+    url = 'https://hanagejet.com',
+  } = props;
 
-const Meta: React.FC<Props> = ({ title, description, pathname, image }) => (
-  <StaticQuery
-    query={query}
-    render={({
-      site: {
-        siteMetadata: {
-          defaultTitle,
-          defaultDescription,
-          siteUrl,
-          defaultImage,
-          twitterUsername,
-        },
-      },
-    }) => {
-      const seo = {
-        title: title || defaultTitle,
-        description: description || defaultDescription,
-        image: `${siteUrl}${image || defaultImage}`,
-        url: `${siteUrl}${pathname || '/'}`,
-      };
-
-      return (
-        <>
-          <Helmet title={seo.title}>
-            <meta name="description" content={seo.description} />
-            <meta name="image" content={seo.image} />
-            {seo.url && <meta property="og:url" content={seo.url} />}
-            {seo.title && <meta property="og:title" content={seo.title} />}
-            {seo.description && (
-              <meta property="og:description" content={seo.description} />
-            )}
-            {seo.image && <meta property="og:image" content={seo.image} />}
-            <meta name="twitter:card" content="summary_large_image" />
-            {twitterUsername && (
-              <meta name="twitter:creator" content={twitterUsername} />
-            )}
-            {seo.title && <meta name="twitter:title" content={seo.title} />}
-            {seo.description && (
-              <meta name="twitter:description" content={seo.description} />
-            )}
-            {seo.image && <meta name="twitter:image" content={seo.image} />}
-          </Helmet>
-        </>
-      );
-    }}
-  />
-);
-
-export default Meta;
+  return (
+    <Head>
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta property="og:image" content={image} />
+      <meta property="og:url" content={url} />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={image} />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:creator" content="@hanagejet" />
+    </Head>
+  );
+};
