@@ -1,8 +1,6 @@
-import sanitize from 'sanitize.css';
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
-  ${sanitize}
   body {
     font-size: 14px;
     font-family: system-ui, sans-serif;
