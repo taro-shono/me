@@ -14,14 +14,14 @@
   },
   "dependencies": {
     "babel-loader": "8.2.2",
-    "next": "11.1.1",
+    "next": "11.1.2",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "sanitize.css": "12.0.1",
     "styled-components": "5.3.1"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "11.1.1",
+    "@next/eslint-plugin-next": "11.1.2",
     "@types/react": "16.14.14",
     "@types/react-dom": "17.0.9",
     "@types/styled-components": "5.1.13",
