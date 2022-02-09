@@ -43,5 +43,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/hanagejet/hanagejet"
+  },
+  "nextBundleAnalysis": {
+    "budget": 358400,
+    "budgetPercentIncreaseRed": 20,
+    "showDetails": true
   }
 }
