@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
+    "analyze": "ANALYZE=true NODE_ENV=production next build && node scripts/analyze-bundles.js",
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
