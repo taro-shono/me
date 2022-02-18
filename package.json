@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "babel-loader": "8.2.3",
-    "next": "11.1.2",
+    "next": "12.1.0",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "sanitize.css": "12.0.1",
