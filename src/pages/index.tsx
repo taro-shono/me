@@ -20,7 +20,6 @@ const ContentItem = styled.li`
   margin: 8px 0 0;
 `;
 const Anchor = styled.a``;
-const Me = styled.img``;
 
 const Index: React.FC = () => (
   <Layout>
@@ -34,6 +33,9 @@ const Index: React.FC = () => (
             href="https://www.picker.today"
             target="_blank"
             rel="noreferrer"
+            css={{
+              textDecoration: 'line-through',
+            }}
           >
             https://www.picker.today
           </Anchor>
