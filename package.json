@@ -14,7 +14,7 @@
     "lint:js": "eslint 'src/**/*'"
   },
   "dependencies": {
-    "babel-loader": "8.3.0",
+    "babel-loader": "9.1.2",
     "next": "11.1.4",
     "react": "16.14.0",
     "react-dom": "16.14.0",
