@@ -1,6 +1,9 @@
 {
   "extends": ["config:base"],
   "labels": ["renovate"],
+  "pin": {
+    "automerge": true
+  },
   "minor": {
     "automerge": true,
     "groupName": "minor dependencies"
