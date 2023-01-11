@@ -1,7 +1,13 @@
 {
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
   "compilerOptions": {
-    "lib": ["dom", "es2019"],
+    "lib": [
+      "dom",
+      "es2019"
+    ],
     "module": "commonjs",
     "target": "ES2019",
     "jsx": "preserve",
@@ -9,13 +15,19 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "esModuleInterop": true,
-    "typeRoots": ["node_modules/@types", "./src/types"],
+    "typeRoots": [
+      "node_modules/@types",
+      "./src/types"
+    ],
     "allowJs": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "incremental": true
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }

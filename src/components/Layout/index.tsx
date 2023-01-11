@@ -11,7 +11,7 @@ const Container = styled.div`
   }
 `;
 
-const Layout: React.FC = ({ children }) => (
+const Layout: React.FC<React.PropsWithChildren> = ({ children }) => (
   <Container>
     <GlobalStyle />
     {children}
