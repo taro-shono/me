@@ -35,7 +35,7 @@ jobs:
             .next/analyze/bundle.json
 
       - name: Download master JSON
-        uses: dawidd6/action-download-artifact@v2
+        uses: dawidd6/action-download-artifact@v7
         if: success() && github.event.number
         with:
           workflow: bundle-size.yml
